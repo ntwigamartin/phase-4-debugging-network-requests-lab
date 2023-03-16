@@ -62,12 +62,12 @@ developing your own process.
 
 - Add a new toy when the toy form is submitted
 
-  - How I debugged:
+  - How I debugged: checked the browser console and noted 500 server error, then checked the rails server logs and noted there was a name error in the controller create action which i proceeded to amend
 
 - Update the number of likes for a toy
 
-  - How I debugged:
+  - How I debugged: checked browser console and noted unexpected end of json input hence checking the controller update for json response. added render json to return updated likes
 
 - Donate a toy to Goodwill (and delete it from our database)
 
-  - How I debugged:
+  - How I debugged: checked browser console and noted not found error, then checked the rails server logs and noted no route was defined for deleting which i added and fixed the issue.
